@@ -17,7 +17,9 @@
         'data-tooltip': movie.title
       });
 
-      $title.tooltip({ delay: 50 }).text(movie.title);
+      $title.tooltip({
+        delay: 50
+      }).text(movie.title);
 
       const $poster = $('<img>').addClass('poster');
 
@@ -55,6 +57,7 @@
       $('.modal-trigger').leanModal();
     }
   };
-
+  //  AIzaSyByDWw2uZ2l - l5AbiWU9DNGpQSQZX5oaw0
   // ADD YOUR CODE HERE
+
 })();
